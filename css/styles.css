@@ -1,3 +1,4 @@
+/*
 :root {
     --primary-text-color: #757575;
     --title-text-color: #000000;
@@ -19,6 +20,7 @@ body {
     color: var(--primary-text-color);
 }
 
+
 ul {
     list-style: none;
     margin: 0;
@@ -28,18 +30,18 @@ ul {
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
-
+*/
 /**
 !=============================!
    Header section
 !=============================!
 */
-
+/*
 .nav {
     display: flex;
     align-items: center;
 }
-
+/*
 .header {
     border-bottom: 1px solid #ECECEC;
 }
@@ -48,7 +50,8 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     align-items: center;
 }
-
+*/
+/*
 .header__logo {
     font-family: Raleway, cursive;
     font-size: 26px;
@@ -57,12 +60,13 @@ h1, h2, h3, h4, h5, h6, p {
     text-decoration: none;
 }
 
+
 span {
     font-size: 26px;
     line-height: 1.2;
     color: var(--accent-color);
 }
-
+/*
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -70,13 +74,13 @@ span {
     padding-left: 15px;
     padding-right: 15px;
 }
-
+*/
 /**
 !=============================!
    Nav-site list
 !=============================!
 */
-
+/*
 .nav-site {
     display: flex;
     margin-left: 93px;
@@ -126,14 +130,14 @@ position: absolute;
 left: 0;
 bottom: 0;
 }
-
+*/
 /**
 !=============================!
    Nav-auth list
       Contacts
 !=============================!
 */
-
+/*
 .nav-auth {
     display: flex;
     margin-left: auto;
@@ -207,7 +211,7 @@ bottom: 0;
       Hero
 !=============================!
 */
-
+/*
 .hero {
 padding-top: 200px;
 padding-bottom: 200px;
@@ -226,7 +230,7 @@ background-position: center;
 
 
 }
-
+/*
 .hero__title {
     margin-top: 0;
     margin-bottom: 30px;
@@ -238,12 +242,12 @@ background-position: center;
     letter-spacing: 0.06em;
     color: var(--additional-color);
 }
-
+*/
 /**
 !=============================!
       Button
 !=============================!
-*/
+
 .hero__button {
     border: none;
     border-radius: 4px;
@@ -261,13 +265,13 @@ background-position: center;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+*/
 /**
 !=============================!
       Modal Window
 !=============================!
 */
-
+/*
 .backdrop {
     position: fixed;
     top: 0;
@@ -291,7 +295,7 @@ background-position: center;
 .backdrop.is-hidden .modal {
     transform: translate(-50%, -50%) scale(0.9);
 }
-
+/*
 .modal {
 position: absolute;
 top: 50%;
@@ -312,7 +316,7 @@ scale: 1.0;
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 visibility: visible;
 }
-
+/*
 .button__close {
     position: absolute;
     top: 8px;
@@ -328,17 +332,17 @@ visibility: visible;
     width: 30px;
     cursor: pointer;
 }
-
+*/
 /**
 !=============================!
       Оформлення Modal
 !=============================!
 */
-
+/*
 .modal__form {
     text-align: center;
 }
-
+/*
 .form__title {
     display: block;
     margin-bottom: 12px;
@@ -347,7 +351,8 @@ visibility: visible;
     text-align: center;
     color: #212121;
 }
-
+*/
+/*
 .register__group {
     margin-bottom: 20px;
 }
@@ -456,12 +461,13 @@ fill: #2196F3;
     justify-content: center;
     gap: 7px;
 }
-
+/*
 .visually-hidden {
     appearance: none;
 
 }
-
+*/
+/*
 .agreement__icon-check {
     border-radius: 2px;
     opacity: 0;
@@ -482,7 +488,7 @@ opacity: 0;
     opacity: 1;
 }
 
-
+/*
 .basic__bth-link {
  display: inline-flex;
  align-items: center;
@@ -520,12 +526,13 @@ box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
       Feature section
 !=============================!
 */
-
+/*
 .section {
  padding-top: 94px;
  padding-bottom: 94px;
 }
-
+*/
+/*
 .antena-item::before {
     display: block;
     content: '';
@@ -573,7 +580,7 @@ box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #F5F4FA;
     margin-bottom: 30px;
 }
-
+/*
 .feature {
     padding-bottom: 0;
 }
@@ -586,7 +593,7 @@ box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .feature__list .list-item {
     width: 270px;
 }
-
+/*
 .feature__title {
     margin-bottom: 10px;
     font-weight: 700;
@@ -595,7 +602,8 @@ box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     text-transform: uppercase;
     color: var(--selective-color);
 }
-
+*/
+/*
 .feature__text {
     line-height: 1.71;
     line-height: 24px;
@@ -607,11 +615,11 @@ box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
       Work section
 !=============================!
 */
-
+/*
 .work {
     padding-bottom: 0;
 }
-
+/*
 .work__title {
     font-weight: 700;
     font-size: 36px;
@@ -620,7 +628,8 @@ box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: var(--selective-color);
     margin-bottom: 50px;
 }
-
+*/
+/*
 .work__list {
     display: flex;
 }
@@ -642,7 +651,7 @@ box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 100%;
     background-color: rgba(47, 48, 58, 0.8);
 }
-
+/*
 .work__section-title {
     font-weight: 700;
     font-size: 14px;
@@ -652,13 +661,13 @@ box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     text-transform: uppercase;
     color: #fff;
 }
-
+*/
 /**
 !=============================!
       Team section
 !=============================!
 */
-
+/*
 .team {
    background-color: #F5F4FA;
 }
@@ -681,7 +690,8 @@ box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display:block;
 }
 
-.card-name {
+/*
+.card-set {
 background-color: var(--additional-color);
 border-radius: 0px 0px 4px 4px;
 padding-top: 30px;
@@ -689,10 +699,9 @@ padding-bottom: 30px;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
 0px 1px 1px rgba(0, 0, 0, 0.14), 
 0px 2px 1px rgba(0, 0, 0, 0.2);
-
 }
-
-
+*/
+/*
 .team__title {
     font-weight: 700;
     font-size: 36px;
@@ -702,7 +711,9 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     margin-bottom: 50px;
     
 }
+*/
 
+/*
 .team__person {
     text-align: center;
     font-weight: 500;
@@ -730,7 +741,7 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
       Socials icons
 !=============================!
 */
-
+/*
 .socials__list {
     display: flex;
     flex-wrap: wrap;
@@ -769,11 +780,13 @@ background-color: #2196F3;
       Clients section
 !=============================!
 */
+/*
 .clients {
     background-color: #fff;
     
 }
 
+/*
 .clients__title {
     font-weight: 700;
     font-size: 36px;
@@ -782,7 +795,8 @@ background-color: #2196F3;
     color: var(--selective-color);
     margin-bottom: 50px;
 }
-
+*/
+/*
 .clients__list {
     display: flex;
     align-items: center;
@@ -829,7 +843,7 @@ background-color: #2196F3;
       Footer
 !=============================!
 */
-
+/*
 .footer {
     padding: 60px 0;
     background-color: var(--footer-bg-color);
@@ -870,7 +884,7 @@ background-color: #2196F3;
 .footer__separator:not(:last-child) {
     margin-bottom: 9px;
 }
-
+/*
 .footer__title {
     font-size: 14px;
     line-height: 16px;
@@ -880,7 +894,8 @@ background-color: #2196F3;
     color: #FFFFFF;
 
 }
-
+*/
+/*
 .contacts-container {
     display: flex;
     align-items: baseline;
@@ -891,7 +906,7 @@ background-color: #2196F3;
       Footer right block
 !=============================!
 */
-
+/*
 .footer__right--block {
     margin-left: 70px;
 }
@@ -934,7 +949,7 @@ background-color: #2196F3;
       Footer left block
 !=============================!
 */
-
+/*
 .footer__subscription{
     margin-left: auto;
     
@@ -980,7 +995,7 @@ background-color: #2196F3;
     align-items: center;
     gap: 12px;
 }
- 
+ /*
 .footer__basic-bth {
     display: inline-flex;
     align-items: center;
@@ -1003,7 +1018,7 @@ background-color: #2196F3;
       Portfolio
 !=============================!
 */
-
+/*
 .button__portfolio {
     border: 1px solid transparent;
     display: inline-block;
@@ -1021,7 +1036,7 @@ background-color: #2196F3;
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+/*
 .button__portfolio:hover,
 .button__portfolio:focus {
     
@@ -1031,7 +1046,8 @@ background-color: #2196F3;
 0px 1px 1px rgba(0, 0, 0, 0.14), 
 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-
+*/
+/*
 .tack {
     display: flex;
     justify-content: center;
@@ -1039,13 +1055,14 @@ background-color: #2196F3;
     gap: 8px;
     margin-bottom: 50px;
 }
-
+/*
 .container .flex {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
-
+*/
+/*
 .flex__line {
     width: 370px;
     
